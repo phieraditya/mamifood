@@ -13,7 +13,7 @@
         <nav>
           <div>
             <h1 class="font-bold uppercase p-4 border-b border-gray-100">
-              <a href="/">Mami Food</a>
+              <a href="/" class="hover:text-primary">Mami Food</a>
             </h1>
           </div>
           <ul>
@@ -81,10 +81,14 @@
 
       <main class="px-16 py-6 bg-gray-100 md:col-span-2">
         <div class="flex justify-center md:justify-end">
-          <a class="btn text-primary border-primary md:border-2" href="#"
+          <a
+            class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white"
+            href="#"
             >Log in</a
           >
-          <a class="btn text-primary ml-2 border-primary md:border-2" href="#"
+          <a
+            class="btn text-primary ml-2 border-primary md:border-2 hover:bg-primary hover:text-white"
+            href="#"
             >Sign up</a
           >
         </div>
@@ -101,7 +105,7 @@
 
           <div class="mt-8 grid lg:grid-cols-3 gap-10">
             <!-- cards go here -->
-            <div class="card">
+            <div class="card hover:shadow-lg">
               <img
                 src="img/nasi_rawon.jpeg"
                 alt="Nasi Rawon"
@@ -131,7 +135,7 @@
                 <span>90 mins</span>
               </div>
             </div>
-            <div class="card">
+            <div class="card hover:shadow-lg">
               <img
                 src="img/tipat_cantok.avif"
                 alt="Tipat Cantok"
@@ -161,7 +165,7 @@
                 <span>25 mins</span>
               </div>
             </div>
-            <div class="card">
+            <div class="card hover:shadow-lg">
               <img
                 src="img/rendang.avif"
                 alt="Rendang"
@@ -202,7 +206,11 @@
           </div>
 
           <div class="flex justify-center">
-            <div class="btn bg-secondary-100 text-secondary 200">Load more</div>
+            <div
+              class="btn bg-secondary-100 text-secondary 200 hover:shadow-inner"
+            >
+              Load more
+            </div>
           </div>
         </div>
       </main>
