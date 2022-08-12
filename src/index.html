@@ -7,22 +7,25 @@
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
   <body class="text-gray-600 font-body">
+    <!-- content wrapper -->
     <div class="grid md:grid-cols-3">
-      <!-- content wrapper -->
-      <div class="md:col-span-1">
-        <nav>
+      <!-- start nav -->
+      <div class="md:col-span-1 md:flex md:justify-end">
+        <nav class="text-right">
           <div>
             <h1 class="font-bold uppercase p-4 border-b border-gray-100">
               <a href="/" class="hover:text-primary">Mami Food</a>
             </h1>
           </div>
-          <ul>
-            <li class="text-gray-700 font-bold">
-              <a href="#"
+          <ul class="text-sm mt-6">
+            <li class="text-gray-700 font-bold py-1">
+              <a
+                href="#"
+                class="px-4 flex justify-end border-r-4 border-primary"
                 ><span>Home</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
+                  class="h-5 w-5 ml-2"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -36,12 +39,12 @@
                 </svg>
               </a>
             </li>
-            <li>
-              <a href="#"
+            <li class="py-1">
+              <a href="#" class="px-4 flex justify-end border-r-4 border-white"
                 ><span>About</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
+                  class="h-5 w-5 ml-2"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -55,12 +58,12 @@
                 </svg>
               </a>
             </li>
-            <li>
-              <a href="#"
+            <li class="py-1">
+              <a href="#" class="px-4 flex justify-end border-r-4 border-white"
                 ><span>Contact</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
+                  class="h-5 w-5 ml-2"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -77,7 +80,7 @@
           </ul>
         </nav>
       </div>
-      <!-- end nav-->
+      <!-- end nav -->
 
       <main class="px-16 py-6 bg-gray-100 md:col-span-2">
         <div class="flex justify-center md:justify-end">
